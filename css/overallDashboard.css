@@ -1,0 +1,41 @@
+h1 { 
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .chart{
+    font-size: 10px;
+    text-align: right;
+    color: white;
+    margin-left: 800px;
+  }
+
+
+  .column {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+
+#timeseries {
+  text-align: center;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 10;
+  display: inline-block;
+  background-color: black;
+  padding: 10px;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  fill-opacity: 100;
+  font-family: "Robot Mono", sans-serif;
+  color: whitesmoke;
+  padding: 1rem;
+  font-size: 15px;
+  z-index: 100;
+  visibility: hidden;
+}
